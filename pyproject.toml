@@ -1,0 +1,21 @@
+[project]
+name = "simple-qna-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Qureshihasaan", email = "hasaanqureshi150@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.4.400",
+    "openai-agents==0.0.4",
+    "python-dotenv>=1.1.0",
+]
+
+[project.scripts]
+simple-qna-chatbot = "simple_qna_chatbot:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

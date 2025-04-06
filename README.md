@@ -21,7 +21,7 @@ A simple question-and-answer chatbot built using Chainlit and OpenAI Agent SDK w
 
 1. Clone the repository:
 ```bash
-git clone 
+git clone https://github.com/Qureshihasaan/Simple_QnA_Chatbot
 cd simple-qna-chatbot
 ```
 
